@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../font/Vazir.ttf');
+}
+.lalezar{
+    font-family: 'lalezar';
+}
+body{
+    font-family: 'vazir',sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+/* header */
+header{
+    background-color: #37517e;
+    height: 830px;
+}
+.nav-bar{
+    padding: 30px;
+    letter-spacing: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.intro{
+    padding: 50px;
+    color: rgb(242, 240, 240);
+}
+.title{
+    font-size: 30px;
+}
+.desc{
+    text-align: justify;
+    padding: 20px 0;
+    line-height: 1.5rem;
+    color: rgb(202, 202, 202);
+}
+.start-btn{
+    all: unset;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.start-btn:hover{
+    background-color: #fff;
+    color: #37517e;
+}
+/* team */
+.team{
+    padding: 15px;
+    margin-top: 20px;
+}
+.section-title{
+    font-family:'lalezar';
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.team-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 7px;
+}
+.team-card:hover{
+    transform: scale(1.05);
+}
+.image{
+    height: 300px;
+}
+.card-name{
+    color: #012970;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.card-job{
+    color: #a3a4a4;
+    font-size: 16px;
+    padding: 10px;
+}
+.card-desc{
+    color: rgb(100, 100, 100);
+    text-align: justify;
+    padding: 20px 20px 30px;
+}
+/* course */
+.course{
+    padding: 15px;
+    margin-top: 20px;
+}
+.course-title{
+    font-size: 30px;
+    font-family: 'lalezar';
+    text-align: center;
+    padding: 15px;
+}
+.course-card{
+    border: 1px solid rgb(170, 169, 169);
+    border-radius: 7px;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin: 0 7px;
+}
+.course-card:hover{
+    transform: scale(1.05);
+}
+.name{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px 30px;
+}
+.devider{
+    border: none;
+    border: 1px solid rgb(210, 205, 205);
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.buy-btn{
+    all: unset;
+    padding: 5px 10px;
+    background-color: rgb(105, 177, 232);
+    color: rgb(72, 72, 72);
+    border-radius: 5px;
+}
+footer{
+    margin-top: 20px;
+    background-color: #37517e;
+    color: #fff;
+    padding: 70px 20px;
+}
+.fot-title{
+    padding: 10px;
+}
